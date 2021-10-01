@@ -1,0 +1,100 @@
+.container-fluid.p-5 {
+    padding: 5px;
+    background: url(media/Me.jpg);
+    background-size:contain;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: none;
+}
+.container-fluid.p-5 h1{
+    text-align: left;
+    font-size: 7vmax;
+    color:#6B2D5C;
+    font-weight:800;
+    text-shadow: -2px -2px black;
+    font-family:'Merienda', cursive;
+    white-space:pre;
+}
+.navbar {
+    background-color: #927e5e90;
+    list-style-type: none; 
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar a {
+    color: white;
+}
+.navbar.dropdown-item {
+    color: black;
+}
+body {
+	background: linear-gradient(-45deg, #FAD4D8, #3283ED, #DBD3C9, #6B2D5C);
+	background-size: 400% 400%;
+	height: 100vh;
+}
+.main .col {
+    background:#43643660;
+}
+.main .col-sm-3{
+    border: none;
+    background-color: #43643690; 
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.main .row h1 {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 100px;
+    color: #3283ED;
+    text-shadow: 2px 2px black;
+}
+.main .row h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:#CEBACF;
+    text-shadow: 1px 1px #436436;
+    text-align: center;
+}
+.main .row p {
+    font-size: 25px;
+    font-family:'Titillium Web', Arial, sans-serif;
+    color:black;
+}
+.main .row .card {
+    width: 100%;
+    margin: 5px;
+    display: inline-block;
+}
+#me{
+    max-width: 95%;
+    margin: 2px;
+    border-radius: 15px;
+}
+#typing-text {
+    color: #DBD3C9;
+    text-shadow: 2px 2px #6B2D5C;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    font-family: Courier New;
+    overflow: visible;
+    background-color: transparent;
+    font-size: 40px;
+    padding: 5px;
+    height: 100%;
+    width: 90%;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background:#43643688;
+    color: white;
+}
