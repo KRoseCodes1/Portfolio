@@ -1,6 +1,6 @@
 .container-fluid.p-5 {
     padding: 5px;
-    background: url(media/Me.jpg);
+    background: url(media/Me.jpg) ;
     background-size:contain;
     border-top: 2px solid black;
     border-right: 2px solid black;
@@ -9,37 +9,41 @@
 }
 .container-fluid.p-5 h1{
     text-align: left;
-    font-size: 7vmax;
-    color:#6B2D5C;
+    font-size: 6vmax;
+    color:#8C1C13;
     font-weight:800;
-    text-shadow: -2px -2px black;
-    font-family:'Merienda', cursive;
+    text-shadow: -3px -3px black;
+    font-family:'Titillium Web', cursive;
     white-space:pre;
 }
 .navbar {
-    background-color: #927e5e90;
+    background-color: rgba(115, 87, 81, 0.8);
     list-style-type: none; 
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Titillium Web', Arial, sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5vmax;
 }
 .navbar a {
-    color: white;
+    color: #E7D7C1;
 }
-.navbar.dropdown-item {
-    color: black;
+.navbar a:hover {
+    color: #BF4342;
 }
+.navbar a:active {
+    color: #BF4342;
+}
+
 body {
-	background: linear-gradient(-45deg, #FAD4D8, #3283ED, #DBD3C9, #6B2D5C);
-	background-size: 400% 400%;
+	background: linear-gradient(-45deg, #E7D7C1, #BF4342, #A78A7F, #8C1C13);
+	background-size: 200% 200%;
 	height: 100vh;
 }
 .main .col {
-    background:#43643660;
+    background:rgba(231,215,193,0.2);
 }
 .main .col-sm-3{
     border: none;
-    background-color: #43643690; 
+    background-color: #E7D7C1; 
     margin: 5px;
     padding: 2px;
     text-align: center;
@@ -49,13 +53,13 @@ body {
     text-align: center;
     font-family: 'Merienda', cursive;
     font-size: 100px;
-    color: #3283ED;
+    color: #8C1C13;
     text-shadow: 2px 2px black;
 }
 .main .row h3 {
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
-    color:#CEBACF;
+    color:black;
     text-shadow: 1px 1px #436436;
     text-align: center;
 }
@@ -69,21 +73,33 @@ body {
     margin: 5px;
     display: inline-block;
 }
+h2 {
+    font-family: 'Merienda', cursive;
+    color:#8C1C13; 
+}
+ .about {
+    font-family:'Titillium Web', Arial, sans-serif;
+    color:white;
+}
+.contact {
+    display: inline;
+    float: right;
+}
 #me{
     max-width: 95%;
     margin: 2px;
     border-radius: 15px;
 }
 #typing-text {
-    color: #DBD3C9;
-    text-shadow: 2px 2px #6B2D5C;
+    color: white;
+    text-shadow: 2px 2px black;
     border: none;
     font-weight: bold;
     text-align: center;
     font-family: Courier New;
     overflow: visible;
     background-color: transparent;
-    font-size: 40px;
+    font-size: 2vmax;
     padding: 5px;
     height: 100%;
     width: 90%;
@@ -95,6 +111,12 @@ footer {
     text-align: center;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    background:#43643688;
+    background:#A78A7F;
     color: white;
+}
+a {
+    color: black;
+}
+a:hover {
+    color:#8C1C13;
 }

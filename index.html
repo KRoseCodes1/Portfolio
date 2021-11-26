@@ -13,9 +13,9 @@
 </head>
 <body>
     <div class="container-fluid p-5">
-            <br /><br />
-            <h1>Kacie Rose <br /></h1><h1>   Kasner</h1><br />
-            <textarea id="typing-text" readonly></textarea>
+        <br />
+        <h1>        Kacie Rose <br /></h1><h1>           Kasner.</h1>
+        <textarea id="typing-text" readonly></textarea>
         <nav class="navbar navbar-expand-lg">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
                 <li class="nav-item">
@@ -33,7 +33,9 @@
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Note Application</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="https://github.com/KRoseCodes1/EmployeeData">Employee Database</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/KRoseCodes1/EmployeeData">Employee Database App</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item href="http://kacieskitchen.azurewebsites.net">MVC Recipe Application</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -51,8 +53,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">References</a>
                 </li>
-            </ul>
-        </nav>
+            </nav>           
     </div>
     <div class= "main">
         <div class="container-fluid mt-5">
@@ -60,23 +61,27 @@
                 <div class="col">
                     <h1>Welcome</h1>
                     <h3>Java Applications. Web Design. Full-Stack Development.</h3><br />
-                    <p>Welcome to my page! For more information on who I am and what I do, check out my <a href="aboutme.html">About Me</a>.
-                    To view projects I have worked on in the past, feel free to check out the <b>Projects</b> menu above.  It contains links to 
-                    many different types of coding projects, mostly contained on GitHub.
-                    If you are interested in viewing my GitHub repositories, full resume, or LinkedIn, please use the <b>Links</b> tab.
-                    Thanks for checking out my page! </p>
-                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgrdpap" method="post">
-                        <fieldset id="fs-frm-inputs">
-                          <label for="full-name">Full Name</label>
-                          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                          <label for="email-address">Email Address</label>
-                          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                          <label for="message">Message</label>
-                          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                        </fieldset>
-                        <input type="submit" value="Submit">
-                      </form>
+                    <p>Welcome to my site! For more information on who I am and what I do, check out my <a href="aboutme.html">About Me</a>.
+                    To view projects I have worked on in the past, feel free to check out the <b>Projects</b> menu above, or click on any
+                    of the links to the right.  If you are interested in viewing my GitHub repositories, full resume, or LinkedIn, please use
+                     the <b>Links</b> tab. To inquire about the services I offer or to contact me regarding more information, please fill out the form found below.
+                    Thank you! </p><hr>
+                    <h3>CONTACT ME<img src="media/contact.png" class="contact" alt ="" ></h3>
+                    <form action="https://formspree.io/f/xrgrdpap" method="POST">
+                    <div class="mb-3">
+                        <label for="FullName" class="form-label">Name:</label>
+                        <input type="text" class="form-control" name="_sendername" placeholder="John Doe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="EmailAddress" class="form-label">Email Address:</label>
+                        <input type="email" class="form-control" name="_replyto" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="TextArea" class="form-label">Message:</label>
+                        <textarea class="form-control" name="message" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-dark mb-3">Send</button>
+                    </form>
                 </div>
                 <div class="col-sm-3">
                     <div class="card">
@@ -84,7 +89,7 @@
                         <div class="card-body">
                           <h3 style="color:black;">CSS</h3>
                           <p class="card-text">A fun creation made entirely using elements of CSS.</p>
-                          <a href="#" class="btn btn-primary">View Now</a>
+                          <a href="#" class="btn btn-dark">View Now</a>
                         </div>
                       </div>
                       <div class="card">
@@ -92,7 +97,7 @@
                         <div class="card-body">
                           <h3 style="color:black">C#</h3>
                           <p class="card-text">Social Media Application project showcasing back-end API development.</p>
-                          <a href="https://github.com/KRoseCodes1/SocialMedia" class="btn btn-primary">View Repository</a>
+                          <a href="https://github.com/KRoseCodes1/SocialMedia" class="btn btn-dark">View Repository</a>
                         </div>
                       </div>
                 </div>
